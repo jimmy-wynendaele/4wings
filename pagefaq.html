@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+      {{ @title}}
+      {{ @message}}
+
+      <br>
+
+       <br>
+
+         <br>
+      
+          
+           <repeat group="{{ @qaf }}" value="{{ @zap }}" counter="{{ @ctr }}"> <br>
+
+              <span>{{ @ctr}} {{ @zap.quetions }}</span><br>
+
+              <span>{{ @ctr}} {{ @zap.reponses }}</span><br>
+              
+           </repeat>
+
+
+    
+  </body>
+</html>
